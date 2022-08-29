@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5 ),rgba(0, 0, 0, 0.5 ),rgba(0, 0, 0, 0.5 )), url(image/hero.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+header{
+    color: white;
+    margin: 0 50px;
+    padding: 10px;
+}
+.opening{
+    float: right;
+}
+a{
+    text-decoration: none;
+    float: right;
+    color: white;
+}
+nav ul{
+    margin-right: 20px;
+    display:flex;
+    float: right;
+    padding: 20px;
+}
+a{
+    margin: 0 20px;
+}
+
+.main{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+}
+.logo{
+    color: orange;
+    font-size: 22px;
+    float: left;
+}
+
+.button{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+button{
+    padding: 15px;
+    font-size: large;
+    border-radius: 15px;
+    border:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.book-now{
+    background: orange;
+    border: 0px;
+}
+.our-menu{
+    background-color: transparent;
+    border: solid orange 1px;
+    color: white;
+}
+
+.book-now :hover{
+    background: transparent;
+    color: white;
+}
+.our-menu :hover{
+    background: orange;
+    color: black;
+
+}
